@@ -1,0 +1,32 @@
+{
+  "name": "gherkin-editor",
+  "version": "1.0.0",
+  "main": "build/GherkinEditor.js",
+  "author": "SmartBear Software",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^8.3.0",
+    "@neutrinojs/react-components": "^8.3.0",
+    "@neutrinojs/standardjs": "^8.3.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "neutrino": "^8.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "calculate-size": "^1.1.1",
+    "lodash": "^4.17.11",
+    "react-ace": "^6.4.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.1 || ^16.0.0",
+    "react-dom": "^15.0.1 || ^16.0.0"
+  }
+}
